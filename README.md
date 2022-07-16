@@ -10,6 +10,12 @@ zsh plugin to have your prompt move to the top of your terminal when you press e
 antigen bundle tom-power/clear-and-accept
 ```
 
+### Zplug
+
+```zsh
+zplug "tom-power/clear-and-accept"
+```
+
 ## Oh My Zsh
 
 ```sh
