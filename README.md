@@ -1,6 +1,11 @@
 # clear and accept
 
-zsh plugin to have your prompt move to the top of your terminal when you press enter..
+zsh plugin to have your prompt move to the top of your terminal
+
+# Usage
+```zsh
+bindkey '^M' 'clear-and-accept'
+```
 
 # Install
 
@@ -27,7 +32,7 @@ git clone https://github.com/tom-power/clear-and-accept ${ZSH_CUSTOM:-~/.oh-my-z
 plugins=(... clear-and-accept)
 ```
 
-## Manual (Git Clone)
+## Manual
 
 ```sh
 git clone https://github.com/tom-power/clear-and-accept ~/.zsh/clear-and-accept
